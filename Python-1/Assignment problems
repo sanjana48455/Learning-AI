@@ -62,6 +62,73 @@ print(x)
 output:
 22 because operator precedence
 
+Q6.  Write a program to swap values of two numbers entered by the user
+sol:
+a = int(input("enter num1 :"))
+b = int(input("enter num2 :"))
+temp = a
+a = b
+b = temp
+print("after swapping :")
+print("a=" , a)
+print("b=" , b) 
+
+output:
+enter num1 :3
+enter num2 :2
+after swapping :
+a= 2
+b= 3
+
+Q7.  Ask the user for a temperature in Celsius (string input). Convert it to , then calculate and print temperature in Fahrenheit
+      Conversion formula:      
+FahrenheitTemp = (CelsiusTemp∗(9/5))+32
+
+sol:
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * (9/5)) + 32
+print("Temperature in Fahrenheit:", fahrenheit)
+
+output:
+Enter temperature in Celsius: 21
+Temperature in Fahrenheit: 69.80000000000001
+
+Q8.  Take the radius ( ) as user input and print the area.
+Use the formula: Area = π * r2 (value of π = 3.14)
+ sol:
+r = float(input("enter the radius: "))
+area = (3.14 * r**2)
+print("the area is : ", area)
+
+Q9.  Ask the user for:  Principal (P), Rate (R), Time (T). Convert all to  and compute simple interest
+     SI =(P ∗R∗T)/100
+
+sol:
+P = float(input("enter principle: "))
+R = float(input("enter Rate : "))
+T = float(input("enter time : "))
+SI = (P*R*T/100)
+print("the simple intrest is :" , SI)
+
+Q10.  Take a decimal number as input (like  ) and output its:  
+     integer part -  45
+     fractional part - .78
+
+sol:
+num = float(input("Enter a decimal number: "))
+integer_part = int(num)
+fractional_part = num - integer_part
+print("Integer part:", integer_part)
+print("Fractional part:", fractional_part)
+
+output:
+Enter a decimal number: 56.28
+Integer part: 56
+Fractional part: 0.28000000000000114
+
+
+
+
 
 
 
