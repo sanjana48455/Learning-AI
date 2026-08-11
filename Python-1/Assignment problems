@@ -1,0 +1,70 @@
+Q1. Write a program that asks the user for their name and age, then prints a 
+sentence like:
+Hello Shradha, you are 21 years old 
+sol: 
+name = input("enter your name")
+age = input("enter your age")
+print("hello", name, "you are", age, "years old !")
+
+Q2 product, and quotient
+ Take two numbers as input from the user and print their sum, difference, product and quotient
+sol:
+a = int(input("enter num1:"))
+b = int(input("enter num2:"))
+sum = a+b
+difference = a-b
+product = a*b
+quotient = a/b
+print (sum, difference, product, quotient)
+
+Q3. Ask the user to enter two integers and one float. Convert them all to floats 
+and print their average.
+sol:
+a = float(input("enter a number1 : ") )#enter integer value
+b = float(input("enter a number2 : ")) #enter integer value
+c = float(input("enter a number 3 : "))# enter float value
+average = (a+b+c)/3
+print(average)
+print(type(average))
+output: 
+enter a number1 : 3
+enter a number2 : 2
+enter a number 3 : 5.5
+3.5
+<class 'float'>
+
+Q4 The user enters a string containing a number (e.g."45", ). Convert it to:
+an integer
+a float
+a string again
+Print all three values with their types.
+sol:
+a = input("Enter a string: ")
+b = int(a)
+c = float(a)
+d = str(a)
+print(b, type(b))
+print(c, type(c))
+print(d, type(d))
+output:
+Enter a string: 45 # my mistake is dont enter "45" input is default string function and alos i forget to take input
+45 <class 'int'>
+45.0 <class 'float'>
+45 <class 'str'>
+
+Q5 Evaluate and print the result of the following expression:
+x = 10 + 3 * 2 ** 2
+Based on what you learnt in the lecture explain why the output is what it is
+
+sol:
+x =   10 + 3 * 2 ** 2
+print(x) 
+output:
+22 because operator precedence
+
+
+
+
+
+
+
