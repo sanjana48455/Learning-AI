@@ -1,1 +1,253 @@
+# Python Notes 🐍
+ 1. Introduction to Python
+### Definition :
+
+Python is a high-level, interpreted, general-purpose programming language known for its simple and readable syntax.
+
+Python is widely used in:
+- Artificial Intelligence (AI)
+- Machine Learning (ML)
+- Data Science
+- Web Development
+- Automation
+- Software Development
+
+### Example
+
+print("Hello, Python!")
+
+Key Points
+Python is easy to learn and read.
+Python is case-sensitive.
+Python is dynamically typed.
+Python supports object-oriented programming.
+Python has a large collection of libraries and frameworks.
+Python is widely used in AI and Machine Learning.
+
+2. Variables
+Definition
+
+A variable is a name that refers to a value stored in memory.
+
+In Python, we do not need to specify the data type while creating a variable. Python automatically determines the data type based on the assigned value.
+
+Syntax
+variable_name = value
+
+Example
+name = "Sanjana"
+age = 22
+height = 5.5
+
+Here:
+
+name stores a string.
+age stores an integer.
+height stores a floating-point number.
+Changing the Value of a Variable
+
+A variable's value can be changed during program execution.
+
+age = 22
+print(age)
+
+age = 23
+print(age)
+Output
+22
+23
+Key Points
+Variables are used to store values.
+Python automatically determines the data type.
+Variable values can be changed.
+Variable names should be meaningful.
+
+3. Constants
+Definition
+
+A constant is a value that is intended to remain unchanged throughout a program.
+
+Python does not have a special keyword for creating constants.
+
+By convention, constants are written using uppercase letters.
+
+Example
+PI = 3.14159
+MAX_SPEED = 120
+COLLEGE_NAME = "ABC College"
+
+Here:
+
+PI is intended to represent a fixed value.
+MAX_SPEED is intended to remain unchanged.
+COLLEGE_NAME is intended to remain unchanged.
+Important Point
+
+Python does not strictly prevent a constant from being changed.
+
+For example:
+
+PI = 3.14
+
+This is allowed by Python, but using uppercase names tells other programmers that the value is intended to be constant.
+
+Key Point
+
+Constant = A value that is intended to remain unchanged.
+
+4. Identifiers
+Definition
+
+An identifier is the name given to programming elements such as variables, functions, classes, and objects.
+
+Example
+name = "Sanjana"
+age = 22
+
+def calculate_sum():
+    pass
+
+Here:
+
+name → identifier
+age → identifier
+calculate_sum → identifier
+Rules for Identifiers
+Rule 1: Can contain letters, digits, and underscores
+student_name = "Sanjana"
+student1 = "Sanjana"
+Rule 2: Cannot start with a digit
+# Invalid
+2name = "Sanjana"
+Rule 3: Cannot contain spaces
+# Invalid
+student name = "Sanjana"
+
+Use an underscore instead:
+
+student_name = "Sanjana"
+Rule 4: Cannot be a Python keyword
+# Invalid
+class = 10
+Rule 5: Identifiers are case-sensitive
+age = 22
+Age = 25
+
+age and Age are two different identifiers.
+
+Good Naming Examples
+student_name = "Sanjana"
+total_marks = 95
+employee_salary = 50000
+Key Point
+
+Identifier = Name given to a programming element.
+
+5. Keywords
+Definition
+
+Keywords are reserved words in Python that have a special meaning and cannot be used as identifiers.
+
+Examples
+if
+else
+for
+while
+def
+class
+return
+import
+True
+False
+None
+Example
+age = 20
+
+if age >= 18:
+    print("Adult")
+
+Here, if is a keyword because it has a special meaning in Python.
+
+Invalid Example
+# Invalid
+if = 10
+
+if cannot be used as a variable name because it is a Python keyword.
+
+Finding Python Keywords
+
+Python provides the keyword module.
+
+import keyword
+
+print(keyword.kwlist)
+
+This displays the list of Python keywords.
+
+Key Point
+
+Keyword = A reserved word that has a special meaning in Python.
+
+6. Comments
+Definition
+
+Comments are statements written in a program to explain the code.
+
+Python ignores comments during program execution.
+
+Comments make code easier to understand, read, and maintain.
+
+Single-Line Comments
+
+A single-line comment starts with #.
+
+Example
+# This is a comment
+
+name = "Sanjana"
+print(name)
+
+Python ignores the line:
+
+# This is a comment
+
+and executes the remaining code.
+
+Multi-Line Comments
+
+Python does not have a separate official multi-line comment syntax.
+
+Triple-quoted strings are commonly used for multi-line text.
+
+Example
+"""
+This is a multi-line
+text block.
+"""
+
+For documentation, Python commonly uses docstrings.
+
+Docstring Example
+def greet():
+    """This function prints a greeting."""
+    print("Hello, Sanjana!")
+Key Point
+
+Comment = Text used to explain code and is not executed as normal program instructions.
+
+Quick Revision 🧠
+Concept	Meaning	Example
+Python	High-level programming language	print("Hello")
+Variable	Name that refers to a value	age = 22
+Constant	Value intended to remain unchanged	PI = 3.14
+Identifier	Name given to a programming element	student_name
+Keyword	Reserved word with special meaning	if, for, class
+Comment	Text used to explain code	# This is a comment
+One-Line Revision
+Python → Programming language
+Variable → Name that refers to a value
+Constant → Value intended to stay unchanged
+Identifier → Name given to a programming element
+Keyword → Reserved word with a special meaning
+Comment → Explanation written for humans
 
